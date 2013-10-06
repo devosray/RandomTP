@@ -1,0 +1,4 @@
+name: RandomTP
+description: Teleport player to a random place using portals
+version: 1.0
+depend: [WorldEdit]
