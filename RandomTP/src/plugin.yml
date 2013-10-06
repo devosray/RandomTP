@@ -1,4 +1,15 @@
 name: RandomTP
+main: com.github.devosray.RandomTP.RandomTP
 description: Teleport player to a random place using portals
 version: 1.0
 depend: [WorldEdit]
+commands:
+   rtp:
+      description: Base command.
+      permission: randomtp.rtp
+      permission-message: You don't have permission!
+      create:
+           description: Create a portal
+           usage: /rtp create
+           permission: randomtp.rtp.create
+           permission-message: You don't have permission!    
